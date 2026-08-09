@@ -1,0 +1,9 @@
+{
+  "appId": "com.crookcatcher.antitheft",
+  "appName": "CrookCatcher",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
