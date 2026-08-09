@@ -1,0 +1,11 @@
+{
+  "name": "CrookCatcher - Anti-Theft Security",
+  "description": "Anti-theft and intruder detection suite featuring failed unlock monitoring, intruder snapshot alerts, live GPS location logging, emergency email dispatches, and fake power menu lock shields.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
