@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CrookCatcher</string>
+    <string name="title_activity_main">CrookCatcher</string>
+    <string name="package_name">com.crookcatcher.antitheft</string>
+    <string name="custom_url_scheme">com.crookcatcher.antitheft</string>
+</resources>
