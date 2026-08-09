@@ -6,5 +6,11 @@ coverage/
 *.log
 .env*
 !.env.example
+!gradle.jar
+!gradle.properties
 !gradle-wrapper.jar
+!gradle-wrapper.properties
 !android/gradle/wrapper/gradle-wrapper.jar
+!android/gradle/wrapper/gradle.jar
+!android/gradle/wrapper/gradle-wrapper.properties
+!android/gradle.properties
