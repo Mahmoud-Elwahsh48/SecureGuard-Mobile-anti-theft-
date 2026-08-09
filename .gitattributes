@@ -1,6 +1,3 @@
-# Auto-detect text files and perform LF normalization
-* text=auto
-
 # Explicitly declare text files that must always have LF line endings
 *.java text eol=lf
 *.kt text eol=lf
@@ -15,15 +12,15 @@
 *.html text eol=lf
 gradlew text eol=lf
 
-# Explicitly declare binary files (NEVER convert line endings)
-*.jar binary
-*.zip binary
-*.aar binary
-*.apk binary
-*.aab binary
-*.so binary
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.ico binary
-*.keystore binary
+# Explicitly declare binary files (NEVER convert line endings or apply LFS filters)
+*.jar binary -text -diff -merge
+*.zip binary -text -diff -merge
+*.aar binary -text -diff -merge
+*.apk binary -text -diff -merge
+*.aab binary -text -diff -merge
+*.so binary -text -diff -merge
+*.png binary -text -diff -merge
+*.jpg binary -text -diff -merge
+*.jpeg binary -text -diff -merge
+*.ico binary -text -diff -merge
+*.keystore binary -text -diff -merge
